@@ -1,0 +1,1171 @@
+network struct,UP,MID,BOTTOM: 16 18 20
+Collecting data ...
+----------------------------------------------------------------------------------------------------
+[59702, 35996, 22434, 14806, 10156, 7948, 9377, 15186, 24734, 37113, 47156, 56270, 66636, 68468, 64963, 66020, 67513, 68100, 67864, 75087, 91968, 105754, 109022, 87753]
+segment number= 14 14
+[95698, 58430, 37240, 24962, 18104, 17325, 24563, 39920, 61847, 84269, 103426, 122906, 135104, 133431]
+[141754, 166476, 207940, 264420, 324940, 380526, 431360, 474139, 505126, 525834, 544651, 569983, 607269, 651328]
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 13569
+total bottom subgroup number: 2849
+Calculating global pop for seg: 0
+Calculating MF pop for seg: 0
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Updating static placement&routing for MF Pop...
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 304  lru: 254
+110100110110011011 : mf: 304  lru: 254
+1101001101100110 : mf: 1219  lru: 1016
+110100110110011001 : mf: 304  lru: 254
+110100110110011000 : mf: 304  lru: 254
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 141754
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 13569
+total cache capacity: 4064
+cache_catalog_percent: 0.29950622743
+count db,dh_mid,dh_up,dm_mid,dm_up: 6911 1345 424 0 0
+sum delay= 357611.5
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 13569
+total cache capacity: 4064
+cache_catalog_percent: 0.29950622743
+count db,dh_mid,dh_up,dm_mid,dm_up: 6861 1505 314 0 0
+sum delay= 354781.5
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+1953 items.
+difference between routing:
+4064 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 13569
+total cache capacity: 4064
+cache_catalog_percent: 0.29950622743
+count db,dh_mid,dh_up,dm_mid,dm_up: 5635 1059 1986 0 0
+sum delay= 309420.5
+--------------------------------------------------------------------------------
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 8957
+total bottom subgroup number: 2640
+Calculating global pop for seg: 1
+Calculating MF pop for seg: 1
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Total cache capacity= 2680
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 1 left cache: [0, 3]
+removing cache: 0 left cache: [3]
+removing cache: 3 left cache: []
+lamda_i before filter========
+{0: 49, 1: 1609}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 46, 1: 1184}
+removing cache: 0 left cache: []
+Updating static placement&routing for MF Pop...
+Total cache capacity= 2680
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 1 left cache: [0, 3]
+removing cache: 0 left cache: [3]
+removing cache: 3 left cache: []
+lamda_i before filter========
+{0: 49, 1: 1609}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 48, 1: 1489}
+removing cache: 0 left cache: []
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 201  lru: 168
+110100110110011011 : mf: 201  lru: 168
+1101001101100110 : mf: 804  lru: 670
+110100110110011001 : mf: 201  lru: 168
+110100110110011000 : mf: 201  lru: 168
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 166476
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 8957
+total cache capacity: 2680
+cache_catalog_percent: 0.299207323881
+count db,dh_mid,dh_up,dm_mid,dm_up: 9351 1099 603 0 0
+sum delay= 480227.5
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 8957
+total cache capacity: 2680
+cache_catalog_percent: 0.299207323881
+count db,dh_mid,dh_up,dm_mid,dm_up: 9253 1553 247 0 0
+sum delay= 473908.5
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+1262 items.
+difference between routing:
+2680 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 8957
+total cache capacity: 2680
+cache_catalog_percent: 0.299207323881
+count db,dh_mid,dh_up,dm_mid,dm_up: 7893 1085 2075 0 0
+sum delay= 423442.5
+--------------------------------------------------------------------------------
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 5953
+total bottom subgroup number: 2377
+Calculating global pop for seg: 2
+Calculating MF pop for seg: 2
+---preparing rating matrix...
+------shape of rating matrix: (2377, 5953)
+---factorizing rating matrix...
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Total cache capacity= 1784
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 3 left cache: [0, 1]
+removing cache: 1 left cache: [0]
+removing cache: 0 left cache: []
+lamda_i before filter========
+{0: 18, 1: 913}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 16, 1: 700}
+removing cache: 0 left cache: []
+Updating static placement&routing for MF Pop...
+Total cache capacity= 1784
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 3 left cache: [0, 1]
+removing cache: 1 left cache: [0]
+removing cache: 0 left cache: []
+lamda_i before filter========
+{0: 18, 1: 913}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 17, 1: 846}
+removing cache: 0 left cache: []
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 133  lru: 112
+110100110110011011 : mf: 133  lru: 112
+1101001101100110 : mf: 535  lru: 446
+110100110110011001 : mf: 133  lru: 112
+110100110110011000 : mf: 133  lru: 112
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 207940
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 5953
+total cache capacity: 1784
+cache_catalog_percent: 0.299680833193
+count db,dh_mid,dh_up,dm_mid,dm_up: 12735 889 720 0 0
+sum delay= 649559.5
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 5953
+total cache capacity: 1784
+cache_catalog_percent: 0.299680833193
+count db,dh_mid,dh_up,dm_mid,dm_up: 12608 1491 245 0 0
+sum delay= 641295.5
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+848 items.
+difference between routing:
+1784 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 5953
+total cache capacity: 1784
+cache_catalog_percent: 0.299680833193
+count db,dh_mid,dh_up,dm_mid,dm_up: 11008 1160 2176 0 0
+sum delay= 580716.0
+--------------------------------------------------------------------------------
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 3976
+total bottom subgroup number: 2103
+Calculating global pop for seg: 3
+Calculating MF pop for seg: 3
+---preparing rating matrix...
+------shape of rating matrix: (2103, 3976)
+---factorizing rating matrix...
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Total cache capacity= 1192
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 3 left cache: [0, 1]
+removing cache: 0 left cache: [1]
+removing cache: 1 left cache: []
+lamda_i before filter========
+{0: 6, 1: 493}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 5, 1: 380}
+removing cache: 0 left cache: []
+Updating static placement&routing for MF Pop...
+Total cache capacity= 1192
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 3 left cache: [0, 1]
+removing cache: 0 left cache: [1]
+removing cache: 1 left cache: []
+lamda_i before filter========
+{0: 6, 1: 493}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 5, 1: 465}
+removing cache: 0 left cache: []
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 89  lru: 75
+110100110110011011 : mf: 89  lru: 75
+1101001101100110 : mf: 357  lru: 298
+110100110110011001 : mf: 89  lru: 75
+110100110110011000 : mf: 89  lru: 75
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 264420
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 3976
+total cache capacity: 1192
+cache_catalog_percent: 0.299798792757
+count db,dh_mid,dh_up,dm_mid,dm_up: 16812 821 1018 0 0
+sum delay= 856313.5
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 3976
+total cache capacity: 1192
+cache_catalog_percent: 0.299798792757
+count db,dh_mid,dh_up,dm_mid,dm_up: 16886 1530 235 0 0
+sum delay= 855300.0
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+555 items.
+difference between routing:
+1192 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 3976
+total cache capacity: 1192
+cache_catalog_percent: 0.299798792757
+count db,dh_mid,dh_up,dm_mid,dm_up: 14999 1232 2420 0 0
+sum delay= 783346.0
+--------------------------------------------------------------------------------
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 2897
+total bottom subgroup number: 1771
+Calculating global pop for seg: 4
+Calculating MF pop for seg: 4
+---preparing rating matrix...
+------shape of rating matrix: (1771, 2897)
+---factorizing rating matrix...
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Total cache capacity= 864
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 3 left cache: [0, 1]
+removing cache: 0 left cache: [1]
+removing cache: 1 left cache: []
+lamda_i before filter========
+{0: 407}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 317}
+removing cache: 0 left cache: []
+Updating static placement&routing for MF Pop...
+Total cache capacity= 864
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 3 left cache: [0, 1]
+removing cache: 0 left cache: [1]
+removing cache: 1 left cache: []
+lamda_i before filter========
+{0: 407}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 387}
+removing cache: 0 left cache: []
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 64  lru: 54
+110100110110011011 : mf: 64  lru: 54
+1101001101100110 : mf: 259  lru: 216
+110100110110011001 : mf: 64  lru: 54
+110100110110011000 : mf: 64  lru: 54
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 324940
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 2897
+total cache capacity: 864
+cache_catalog_percent: 0.298239558164
+count db,dh_mid,dh_up,dm_mid,dm_up: 20528 734 992 0 0
+sum delay= 1041349.0
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 2897
+total cache capacity: 864
+cache_catalog_percent: 0.298239558164
+count db,dh_mid,dh_up,dm_mid,dm_up: 20478 1419 357 0 0
+sum delay= 1035631.5
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+391 items.
+difference between routing:
+432 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 2897
+total cache capacity: 864
+cache_catalog_percent: 0.298239558164
+count db,dh_mid,dh_up,dm_mid,dm_up: 18592 1203 2657 0 0
+sum delay= 965443.5
+--------------------------------------------------------------------------------
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 2879
+total bottom subgroup number: 1716
+Calculating global pop for seg: 5
+Calculating MF pop for seg: 5
+---preparing rating matrix...
+------shape of rating matrix: (1716, 2879)
+---factorizing rating matrix...
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Total cache capacity= 856
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 3 left cache: [0, 1]
+removing cache: 0 left cache: [1]
+removing cache: 1 left cache: []
+lamda_i before filter========
+{0: 1, 1: 576}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 1, 1: 430}
+removing cache: 0 left cache: []
+Updating static placement&routing for MF Pop...
+Total cache capacity= 856
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 3 left cache: [0, 1]
+removing cache: 0 left cache: [1]
+removing cache: 1 left cache: []
+lamda_i before filter========
+{0: 1, 1: 576}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 1, 1: 551}
+removing cache: 0 left cache: []
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 64  lru: 54
+110100110110011011 : mf: 64  lru: 54
+1101001101100110 : mf: 256  lru: 214
+110100110110011001 : mf: 64  lru: 54
+110100110110011000 : mf: 64  lru: 54
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 380526
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 2879
+total cache capacity: 856
+cache_catalog_percent: 0.297325460229
+count db,dh_mid,dh_up,dm_mid,dm_up: 23784 1048 1199 0 0
+sum delay= 1208153.0
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 2879
+total cache capacity: 856
+cache_catalog_percent: 0.297325460229
+count db,dh_mid,dh_up,dm_mid,dm_up: 24057 1542 432 0 0
+sum delay= 1216083.0
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+396 items.
+difference between routing:
+856 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 2879
+total cache capacity: 856
+cache_catalog_percent: 0.297325460229
+count db,dh_mid,dh_up,dm_mid,dm_up: 21547 1440 3044 0 0
+sum delay= 1118754.0
+--------------------------------------------------------------------------------
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 4111
+total bottom subgroup number: 1906
+Calculating global pop for seg: 6
+Calculating MF pop for seg: 6
+---preparing rating matrix...
+------shape of rating matrix: (1906, 4111)
+---factorizing rating matrix...
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Total cache capacity= 1232
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 3 left cache: [0, 1]
+removing cache: 0 left cache: [1]
+removing cache: 1 left cache: []
+lamda_i before filter========
+{0: 9, 1: 1319}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 6, 1: 1000}
+removing cache: 0 left cache: []
+Updating static placement&routing for MF Pop...
+Total cache capacity= 1232
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 3 left cache: [0, 1]
+removing cache: 0 left cache: [1]
+removing cache: 1 left cache: []
+lamda_i before filter========
+{0: 9, 1: 1319}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 7, 1: 1266}
+removing cache: 0 left cache: []
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 92  lru: 77
+110100110110011011 : mf: 92  lru: 77
+1101001101100110 : mf: 369  lru: 308
+110100110110011001 : mf: 92  lru: 77
+110100110110011000 : mf: 92  lru: 77
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 431360
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 4111
+total cache capacity: 1232
+cache_catalog_percent: 0.299683775237
+count db,dh_mid,dh_up,dm_mid,dm_up: 25671 1558 1328 0 0
+sum delay= 1306727.0
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 4111
+total cache capacity: 1232
+cache_catalog_percent: 0.299683775237
+count db,dh_mid,dh_up,dm_mid,dm_up: 25738 2322 497 0 0
+sum delay= 1305138.0
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+564 items.
+difference between routing:
+1232 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 4111
+total cache capacity: 1232
+cache_catalog_percent: 0.299683775237
+count db,dh_mid,dh_up,dm_mid,dm_up: 22806 1920 3831 0 0
+sum delay= 1193001.0
+--------------------------------------------------------------------------------
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 6399
+total bottom subgroup number: 2255
+Calculating global pop for seg: 7
+Calculating MF pop for seg: 7
+---preparing rating matrix...
+------shape of rating matrix: (2255, 6399)
+---factorizing rating matrix...
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Total cache capacity= 1912
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 3 left cache: [0, 1]
+removing cache: 0 left cache: [1]
+removing cache: 1 left cache: []
+lamda_i before filter========
+{0: 24, 1: 2590}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 20, 1: 1945}
+removing cache: 0 left cache: []
+Updating static placement&routing for MF Pop...
+Total cache capacity= 1912
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 3 left cache: [0, 1]
+removing cache: 0 left cache: [1]
+removing cache: 1 left cache: []
+lamda_i before filter========
+{0: 24, 1: 2590}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 23, 1: 2448}
+removing cache: 0 left cache: []
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 143  lru: 120
+110100110110011011 : mf: 143  lru: 120
+1101001101100110 : mf: 573  lru: 478
+110100110110011001 : mf: 143  lru: 120
+110100110110011000 : mf: 143  lru: 120
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 474139
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 6399
+total cache capacity: 1912
+cache_catalog_percent: 0.298796686982
+count db,dh_mid,dh_up,dm_mid,dm_up: 25962 3155 1418 0 0
+sum delay= 1331050.5
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 6399
+total cache capacity: 1912
+cache_catalog_percent: 0.298796686982
+count db,dh_mid,dh_up,dm_mid,dm_up: 26603 3192 740 0 0
+sum delay= 1355846.0
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+885 items.
+difference between routing:
+1912 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 6399
+total cache capacity: 1912
+cache_catalog_percent: 0.298796686982
+count db,dh_mid,dh_up,dm_mid,dm_up: 23128 2510 4897 0 0
+sum delay= 1224072.0
+--------------------------------------------------------------------------------
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 9424
+total bottom subgroup number: 2559
+Calculating global pop for seg: 8
+Calculating MF pop for seg: 8
+---preparing rating matrix...
+------shape of rating matrix: (2559, 9424)
+---factorizing rating matrix...
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Total cache capacity= 2824
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 0 left cache: [1, 3]
+removing cache: 1 left cache: [3]
+removing cache: 3 left cache: []
+lamda_i before filter========
+{0: 35, 1: 3885}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 33, 1: 2810}
+removing cache: 0 left cache: []
+Updating static placement&routing for MF Pop...
+Total cache capacity= 2824
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 0 left cache: [1, 3]
+removing cache: 1 left cache: [3]
+removing cache: 3 left cache: []
+lamda_i before filter========
+{0: 35, 1: 3885}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 34, 1: 3636}
+removing cache: 0 left cache: []
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 211  lru: 177
+110100110110011011 : mf: 211  lru: 177
+1101001101100110 : mf: 847  lru: 706
+110100110110011001 : mf: 211  lru: 177
+110100110110011000 : mf: 211  lru: 177
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 505126
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 9424
+total cache capacity: 2824
+cache_catalog_percent: 0.299660441426
+count db,dh_mid,dh_up,dm_mid,dm_up: 25802 4515 1609 0 0
+sum delay= 1332631.5
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 9424
+total cache capacity: 2824
+cache_catalog_percent: 0.299660441426
+count db,dh_mid,dh_up,dm_mid,dm_up: 26827 4192 907 0 0
+sum delay= 1374383.0
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+1337 items.
+difference between routing:
+2824 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 9424
+total cache capacity: 2824
+cache_catalog_percent: 0.299660441426
+count db,dh_mid,dh_up,dm_mid,dm_up: 22962 3148 5816 0 0
+sum delay= 1229390.0
+--------------------------------------------------------------------------------
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 12369
+total bottom subgroup number: 2736
+Calculating global pop for seg: 9
+Calculating MF pop for seg: 9
+---preparing rating matrix...
+------shape of rating matrix: (2736, 12369)
+---factorizing rating matrix...
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Total cache capacity= 3704
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 1 left cache: [0, 3]
+removing cache: 3 left cache: [0]
+removing cache: 0 left cache: []
+lamda_i before filter========
+{0: 49, 1: 4991}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 46, 1: 3554}
+removing cache: 0 left cache: []
+Updating static placement&routing for MF Pop...
+Total cache capacity= 3704
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 1 left cache: [0, 3]
+removing cache: 3 left cache: [0]
+removing cache: 0 left cache: []
+lamda_i before filter========
+{0: 49, 1: 4991}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 48, 1: 4622}
+removing cache: 0 left cache: []
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 277  lru: 232
+110100110110011011 : mf: 277  lru: 232
+1101001101100110 : mf: 1111  lru: 926
+110100110110011001 : mf: 277  lru: 232
+110100110110011000 : mf: 277  lru: 232
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 525834
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 12369
+total cache capacity: 3704
+cache_catalog_percent: 0.299458323227
+count db,dh_mid,dh_up,dm_mid,dm_up: 25668 5340 1731 0 0
+sum delay= 1331811.0
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 12369
+total cache capacity: 3704
+cache_catalog_percent: 0.299458323227
+count db,dh_mid,dh_up,dm_mid,dm_up: 26230 5611 898 0 0
+sum delay= 1352238.5
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+1787 items.
+difference between routing:
+3704 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 12369
+total cache capacity: 3704
+cache_catalog_percent: 0.299458323227
+count db,dh_mid,dh_up,dm_mid,dm_up: 22164 3802 6773 0 0
+sum delay= 1203614.0
+--------------------------------------------------------------------------------
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 14690
+total bottom subgroup number: 2870
+Calculating global pop for seg: 10
+Calculating MF pop for seg: 10
+---preparing rating matrix...
+------shape of rating matrix: (2870, 14690)
+---factorizing rating matrix...
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Total cache capacity= 4400
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 1 left cache: [0, 3]
+removing cache: 3 left cache: [0]
+removing cache: 0 left cache: []
+lamda_i before filter========
+{0: 46, 1: 5967}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 42, 1: 4238}
+removing cache: 0 left cache: []
+Updating static placement&routing for MF Pop...
+Total cache capacity= 4400
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 1 left cache: [0, 3]
+removing cache: 3 left cache: [0]
+removing cache: 0 left cache: []
+lamda_i before filter========
+{0: 46, 1: 5967}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 44, 1: 5535}
+removing cache: 0 left cache: []
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 330  lru: 275
+110100110110011011 : mf: 330  lru: 275
+1101001101100110 : mf: 1320  lru: 1100
+110100110110011001 : mf: 330  lru: 275
+110100110110011000 : mf: 330  lru: 275
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 544651
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 14690
+total cache capacity: 4400
+cache_catalog_percent: 0.299523485364
+count db,dh_mid,dh_up,dm_mid,dm_up: 25034 6254 1892 0 0
+sum delay= 1306909.0
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 14690
+total cache capacity: 4400
+cache_catalog_percent: 0.299523485364
+count db,dh_mid,dh_up,dm_mid,dm_up: 25845 6452 883 0 0
+sum delay= 1337449.0
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+2113 items.
+difference between routing:
+4400 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 14690
+total cache capacity: 4400
+cache_catalog_percent: 0.299523485364
+count db,dh_mid,dh_up,dm_mid,dm_up: 21494 4294 7392 0 0
+sum delay= 1179629.0
+--------------------------------------------------------------------------------
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 16769
+total bottom subgroup number: 3027
+Calculating global pop for seg: 11
+Calculating MF pop for seg: 11
+---preparing rating matrix...
+------shape of rating matrix: (3027, 16769)
+---factorizing rating matrix...
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Total cache capacity= 5024
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 1 left cache: [0, 3]
+removing cache: 0 left cache: [3]
+removing cache: 3 left cache: []
+lamda_i before filter========
+{0: 7234, 1: 67}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 4979, 1: 63}
+removing cache: 0 left cache: []
+Updating static placement&routing for MF Pop...
+Total cache capacity= 5024
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 1 left cache: [0, 3]
+removing cache: 0 left cache: [3]
+removing cache: 3 left cache: []
+lamda_i before filter========
+{0: 7234, 1: 67}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 6612, 1: 64}
+removing cache: 0 left cache: []
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 376  lru: 314
+110100110110011011 : mf: 376  lru: 314
+1101001101100110 : mf: 1507  lru: 1256
+110100110110011001 : mf: 376  lru: 314
+110100110110011000 : mf: 376  lru: 314
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 569983
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 16769
+total cache capacity: 5024
+cache_catalog_percent: 0.299600453217
+count db,dh_mid,dh_up,dm_mid,dm_up: 24350 7057 1958 0 0
+sum delay= 1277851.5
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 16769
+total cache capacity: 5024
+cache_catalog_percent: 0.299600453217
+count db,dh_mid,dh_up,dm_mid,dm_up: 25530 6947 888 0 0
+sum delay= 1324476.5
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+2457 items.
+difference between routing:
+5024 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 16769
+total cache capacity: 5024
+cache_catalog_percent: 0.299600453217
+count db,dh_mid,dh_up,dm_mid,dm_up: 20969 4714 7682 0 0
+sum delay= 1158879.0
+--------------------------------------------------------------------------------
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 18073
+total bottom subgroup number: 3109
+Calculating global pop for seg: 12
+Calculating MF pop for seg: 12
+---preparing rating matrix...
+------shape of rating matrix: (3109, 18073)
+---factorizing rating matrix...
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Total cache capacity= 5416
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 0 left cache: [1, 3]
+removing cache: 1 left cache: [3]
+removing cache: 3 left cache: []
+lamda_i before filter========
+{0: 91, 1: 7704}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 81, 1: 5247}
+removing cache: 0 left cache: []
+Updating static placement&routing for MF Pop...
+Total cache capacity= 5416
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 0 left cache: [1, 3]
+removing cache: 1 left cache: [3]
+removing cache: 3 left cache: []
+lamda_i before filter========
+{0: 91, 1: 7704}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 86, 1: 7079}
+removing cache: 0 left cache: []
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 406  lru: 339
+110100110110011011 : mf: 406  lru: 339
+1101001101100110 : mf: 1624  lru: 1354
+110100110110011001 : mf: 406  lru: 339
+110100110110011000 : mf: 406  lru: 339
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 607269
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 18073
+total cache capacity: 5416
+cache_catalog_percent: 0.299673546174
+count db,dh_mid,dh_up,dm_mid,dm_up: 25047 7445 2086 0 0
+sum delay= 1316243.5
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 18073
+total cache capacity: 5416
+cache_catalog_percent: 0.299673546174
+count db,dh_mid,dh_up,dm_mid,dm_up: 26015 7504 1059 0 0
+sum delay= 1353671.0
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+2670 items.
+difference between routing:
+5416 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 18073
+total cache capacity: 5416
+cache_catalog_percent: 0.299673546174
+count db,dh_mid,dh_up,dm_mid,dm_up: 21169 5033 8376 0 0
+sum delay= 1178267.5
+--------------------------------------------------------------------------------
+Removing subgroups whose requests are less than 0 ...
+Removing contents accessed less than 2  times...
+total item number: 18130
+total bottom subgroup number: 3087
+Calculating global pop for seg: 13
+Calculating MF pop for seg: 13
+---preparing rating matrix...
+------shape of rating matrix: (3087, 18130)
+---factorizing rating matrix...
+denom: 8
+Creating nodes for lv3graph...
+Creating edges for lv3graph...
+number of up caches= 1
+number of mid caches= 4
+Updating static placement&routing for global Pop...
+Total cache capacity= 5432
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 0 left cache: [1, 3]
+removing cache: 1 left cache: [3]
+removing cache: 3 left cache: []
+lamda_i before filter========
+{0: 99, 1: 7319}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 88, 1: 5039}
+removing cache: 0 left cache: []
+Updating static placement&routing for MF Pop...
+Total cache capacity= 5432
+removing cache: 2 left cache: [0, 1, 3]
+removing cache: 0 left cache: [1, 3]
+removing cache: 1 left cache: [3]
+removing cache: 3 left cache: []
+lamda_i before filter========
+{0: 99, 1: 7319}
+filtering request to the upper caches...
+lamda_i after filter========
+{0: 90, 1: 6761}
+removing cache: 0 left cache: []
+glb download times:mid: 20
+glb download times:up: 5
+mf download times:mid: 20
+mf download times:up: 5
+110100110110011010 : mf: 407  lru: 340
+110100110110011011 : mf: 407  lru: 340
+1101001101100110 : mf: 1629  lru: 1358
+110100110110011001 : mf: 407  lru: 340
+110100110110011000 : mf: 407  lru: 340
+mflru initial download times:mid: 20
+mflru initial download times:up: 5
+--------------------------------------------------------------------------------
+cache_size_multiplier: 4
+evaluating sub-tree id: 1101001101100110 with req number: 651328
+--------------------------------------------------------------------------------
+printing results for global placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 18130
+total cache capacity: 5432
+cache_catalog_percent: 0.299613899614
+count db,dh_mid,dh_up,dm_mid,dm_up: 25824 7661 2124 0 0
+sum delay= 1356699.5
+--------------------------------------------------------------------------------
+printing results for MF placement&routing...
+evaluating delay...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 18130
+total cache capacity: 5432
+cache_catalog_percent: 0.299613899614
+count db,dh_mid,dh_up,dm_mid,dm_up: 26763 7801 1045 0 0
+sum delay= 1392550.5
+--------------------------------------------------------------------------------
+print differences between glob & mf caching and routing...
+difference between caching:
+2627 items.
+difference between routing:
+5432 routs.
+printing results for MFLRU...
+d_b= 50.0  d_h_mid= 5.5  d_h_up= 11.0  d_m_mid= 55.0  d_m_up= 110.0
+number of unique files: 18130
+total cache capacity: 5432
+cache_catalog_percent: 0.299613899614
+count db,dh_mid,dh_up,dm_mid,dm_up: 21803 5176 8630 0 0
+sum delay= 1213548.0
+--------------------------------------------------------------------------------
+train_length: 2 test_length: 8
+cnt_dbs_glb: [6911, 9351, 12735, 16812, 20528, 23784, 25671, 25962, 25802, 25668, 25034, 24350, 25047, 25824] 20962.7857143
+cnt_dhms_glb: [1345, 1099, 889, 821, 734, 1048, 1558, 3155, 4515, 5340, 6254, 7057, 7445, 7661] 3494.35714286
+cnt_dhup_glb: [424, 603, 720, 1018, 992, 1199, 1328, 1418, 1609, 1731, 1892, 1958, 2086, 2124] 1364.42857143
+cnt_dcms_glb: [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20] 20.0
+cnt_dcup_glb: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5] 5.0
+cnt_dbs_mf: [6726, 8673, 11671, 15249, 18943, 22750, 24281, 25934, 26266, 25335, 24802, 24516, 24997, 25671] 20415.2857143
+cnt_dhms_mf: [1505, 1553, 1491, 1530, 1419, 1542, 2322, 3192, 4192, 5611, 6452, 6947, 7504, 7801] 3790.07142857
+cnt_dhup_mf: [474, 852, 1207, 1897, 1917, 1764, 1979, 1434, 1493, 1818, 1951, 1927, 2102, 2162] 1641.21428571
+cnt_dcms_mf: [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20] 20.0
+cnt_dcup_mf: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5] 5.0
+cnt_dbs_mflru: [5635, 7893, 11008, 14999, 18592, 21547, 22806, 23128, 22962, 22164, 21494, 20969, 21169, 21803] 18297.7857143
+cnt_dhms_mflru: [1059, 1085, 1160, 1232, 1203, 1440, 1920, 2510, 3148, 3802, 4294, 4714, 5033, 5176] 2698.28571429
+cnt_dhup_mflru: [1986, 2075, 2176, 2420, 2657, 3044, 3831, 4897, 5816, 6773, 7392, 7682, 8376, 8630] 4839.64285714
+cnt_dcms_mflru: [7641, 9988, 13204, 17439, 21269, 24611, 26657, 28045, 28798, 28957, 28906, 28671, 29565, 30453] 23157.4285714
+cnt_dcup_mflru: [5640, 7898, 11013, 15004, 18597, 21552, 22811, 23133, 22967, 22169, 21499, 20974, 21174, 21808] 18302.7857143
